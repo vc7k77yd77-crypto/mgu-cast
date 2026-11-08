@@ -1,0 +1,49 @@
+{
+  "schema": 2,
+  "components": [
+    {
+      "id": "mgu-cast",
+      "kind": "tool",
+      "title": "MGU Cast receiver - experimental",
+      "description": "Experimental two-minute iPhone video test. No audio. Live video and native UI interruption require car validation.",
+      "version": "0.3.1",
+      "author": "vc7k77yd77-crypto",
+      "artifact": {
+        "name": "mgu-cast@0.3.1.tgz",
+        "size": 293143,
+        "sha256": "e5c84723d2d1c80e994721699e57bb4a2d7c46c4e5e1bb11aa24cbbbc39f9423",
+        "url": "https://github.com/vc7k77yd77-crypto/mgu-cast/releases/download/catalog/mgu-cast@0.3.1.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.8.6",
+        "mgu-render": "0.6.15"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ]
+    },
+    {
+      "id": "mgu_cast",
+      "kind": "app",
+      "title": "MGU Cast Beta",
+      "description": "Experimental two-minute iPhone video test. No audio. Live video and native UI interruption require car validation.",
+      "version": "0.3.1",
+      "author": "vc7k77yd77-crypto",
+      "artifact": {
+        "name": "mgu_cast@0.3.1.tgz",
+        "size": 1139390,
+        "sha256": "b731d63ab5ee0dea8440717555ec055152be280e2b7b32f45f111b7d35d9b556",
+        "url": "https://github.com/vc7k77yd77-crypto/mgu-cast/releases/download/catalog/mgu_cast@0.3.1.tgz"
+      },
+      "requires": {
+        "mgu-cast": "0.3.1",
+        "mgu-render": "0.6.15"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ]
+    }
+  ]
+}
